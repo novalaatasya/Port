@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Kaushan';
+    src: url(../Font/Kaushan/kaushanscript-regular-webfont.woff) format(woff);
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    background-image: url(img/BG.jpg);
+    background-size: cover;
+}
+
+p.Name {
+    font-family: 'Kaushan', cursive;
+    color: black;
+    font-size: 36px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+}
+
+p.nav-link {
+    font-family: 'Kaushan', cursive;
+    color: black;
+    font-size: 25px;
+    margin-right: 40px;
+    margin-top: 20px;
+    float: right;
+}
+
+div.Port {
+    margin-top: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    font-size: 130px;
+    color: darkgray;
+    font-family: "Lora", sans-serif;
+}
+
+div.gambar_gueh {
+    position: absolute;
+    top: 75px;
+    left: 60px;
+    width: 725px;
+    height: 550px;
+    background-color: rgba(64, 79, 104, 0.1);
+    border-radius: 10px;
+    z-index: 2;
+}
+
+div.Port_utama {
+    z-index: 4;
+}
+
+div.person1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 550px;
+    height: 550px;
+    background-image: url(img/ME.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+div.social {
+    background-image: url(img/BG.jpg);
+    position: absolute;
+    font-size: 20px;
+    top: 100px;
+    left: 800px;
+    width: 300px;
+    height: 200px;
+    background-image: url(img/social.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 3;
+}
+
+p.social-link {
+    font-family: 'Kaushan', cursive;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    float: left;
+}
+
+div.personality {
+    background-image: url(img/BG.jpg);
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    width: 300px;
+    height: 200px;
+    background-image: url(img/personality.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 3;
+}
+
+p.personality-link {
+    font-family: 'Kaushan', cursive;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    float: left;
+}
